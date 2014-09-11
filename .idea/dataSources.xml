@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3464979039">
+    <data-source source="LOCAL" name="Rails shareIT: development" uuid="03396170-f9b7-41ee-8cc4-4d6867190f56">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:shareIT</jdbc-url>
+      <user-name>shareadmin</user-name>
+      <user-password>dfdedfcfdfd9dfdedfc3dfc4dfcd</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

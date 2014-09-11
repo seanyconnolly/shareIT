@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  houseAccountId: 
+  accountName: MyString
+  buildingNumber: 
+  addressLine1: MyString
+  addressLine2: MyString
+  county: MyString
+  country: MyString
+  tenantId: 
+
+two:
+  houseAccountId: 
+  accountName: MyString
+  buildingNumber: 
+  addressLine1: MyString
+  addressLine2: MyString
+  county: MyString
+  country: MyString
+  tenantId: 

@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: shareIT
+  pool: 5
+  username: shareadmin
+  password: testing
