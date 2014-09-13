@@ -4,7 +4,7 @@
     <data-source source="LOCAL" name="Rails shareIT: development" uuid="03396170-f9b7-41ee-8cc4-4d6867190f56">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:shareIT</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/shareIT</jdbc-url>
       <user-name>shareadmin</user-name>
       <user-password>dfdedfcfdfd9dfdedfc3dfc4dfcd</user-password>
       <libraries />

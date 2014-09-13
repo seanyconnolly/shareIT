@@ -18,8 +18,8 @@ class HouseAccountsController < ApplicationController
   # POST /house_accounts
   # POST /house_accounts.json
   def create
-    @house_account = HouseAccount.new(params[:house_account])
-
+    @house_account = HouseAccount.new(house_account_params)
+      puts "got params #{house_account_params}"
     if @house_account.save
       render json: @house_account, status: :created, location: @house_account
     else
@@ -47,4 +47,11 @@ class HouseAccountsController < ApplicationController
 
     head :no_content
   end
+
+  private
+  def house_account_params
+    params.require(:house_account).permit(:name,:building_number, :address_line1, :address_line2, :county, :country, :tenant_Id)
+  end
+
+
 end

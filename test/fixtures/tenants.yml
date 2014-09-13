@@ -1,19 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  tenantId: 1
-  houseAccountId: 1
-  firstName: MyString
-  lastName: MyString
+  house_accountId: 1
+  first_name: MyString
+  last_name: MyString
   age: 1
-  accountOwner: false
-  billPayer: false
+  account_owner: false
+  bill_payer: false
 
 two:
-  tenantId: 1
-  houseAccountId: 1
-  firstName: MyString
-  lastName: MyString
+  house_accountId: 1
+  first_name: MyString
+  last_name: MyString
   age: 1
-  accountOwner: false
-  billPayer: false
+  account_owner: false
+  bill_payer: false

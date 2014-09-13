@@ -13,7 +13,7 @@ class TenantsControllerTest < ActionController::TestCase
 
   test "should create tenant" do
     assert_difference('Tenant.count') do
-      post :create, tenant: { accountOwner: @tenant.accountOwner, age: @tenant.age, billPayer: @tenant.billPayer, firstName: @tenant.firstName, houseAccountId: @tenant.houseAccountId, lastName: @tenant.lastName, tenantId: @tenant.tenantId }
+      post :create, tenant: { account_owner: @tenant.account_owner, age: @tenant.age, bill_payer: @tenant.bill_payer, first_name: @tenant.first_name, house_accountId: @tenant.house_accountId, last_name: @tenant.last_name }
     end
 
     assert_response 201
@@ -25,7 +25,7 @@ class TenantsControllerTest < ActionController::TestCase
   end
 
   test "should update tenant" do
-    put :update, id: @tenant, tenant: { accountOwner: @tenant.accountOwner, age: @tenant.age, billPayer: @tenant.billPayer, firstName: @tenant.firstName, houseAccountId: @tenant.houseAccountId, lastName: @tenant.lastName, tenantId: @tenant.tenantId }
+    put :update, id: @tenant, tenant: { account_owner: @tenant.account_owner, age: @tenant.age, bill_payer: @tenant.bill_payer, first_name: @tenant.first_name, house_accountId: @tenant.house_accountId, last_name: @tenant.last_name }
     assert_response 204
   end
 

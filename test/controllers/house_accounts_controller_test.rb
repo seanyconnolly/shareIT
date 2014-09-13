@@ -13,7 +13,7 @@ class HouseAccountsControllerTest < ActionController::TestCase
 
   test "should create house_account" do
     assert_difference('HouseAccount.count') do
-      post :create, house_account: { accountName: @house_account.accountName, addressLine1: @house_account.addressLine1, addressLine2: @house_account.addressLine2, buildingNumber: @house_account.buildingNumber, country: @house_account.country, county: @house_account.county, houseAccountId: @house_account.houseAccountId, tenantId: @house_account.tenantId }
+      post :create, house_account: { address_line1: @house_account.address_line1, address_line2: @house_account.address_line2, building_number: @house_account.building_number, country: @house_account.country, county: @house_account.county, name: @house_account.name, tenant_Id: @house_account.tenant_Id }
     end
 
     assert_response 201
@@ -25,7 +25,7 @@ class HouseAccountsControllerTest < ActionController::TestCase
   end
 
   test "should update house_account" do
-    put :update, id: @house_account, house_account: { accountName: @house_account.accountName, addressLine1: @house_account.addressLine1, addressLine2: @house_account.addressLine2, buildingNumber: @house_account.buildingNumber, country: @house_account.country, county: @house_account.county, houseAccountId: @house_account.houseAccountId, tenantId: @house_account.tenantId }
+    put :update, id: @house_account, house_account: { address_line1: @house_account.address_line1, address_line2: @house_account.address_line2, building_number: @house_account.building_number, country: @house_account.country, county: @house_account.county, name: @house_account.name, tenant_Id: @house_account.tenant_Id }
     assert_response 204
   end
 
